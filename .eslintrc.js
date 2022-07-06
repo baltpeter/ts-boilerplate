@@ -13,7 +13,8 @@ module.exports = {
     ],
     rules: {
         'no-undef': 'off',
-        'no-unused-vars': ['warn', { args: 'none', caughtErrors: 'none' }],
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': 'error',
         'no-empty': ['error', { allowEmptyCatch: true }],
         '@typescript-eslint/no-non-null-assertion': 'off',
     },
